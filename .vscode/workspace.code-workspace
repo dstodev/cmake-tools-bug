@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "..",
+			"name": "CMake-Tools Bug"
+		}
+	],
+	"settings": {
+		"cmake.buildDirectory": "${workspaceRoot}/build",
+		"cmake.sourceDirectory": "${workspaceRoot}/project",
+		"cmake.debugConfig": {
+			"cwd": "${workspaceRoot}/build"
+		},
+		"files.exclude": {
+			".vscode/ipch": true,
+			"project/include/SDL2": true,
+		},
+		// Extension settings
+		"files.associations": {
+			".clang-format": "yaml",
+			"xstring": "cpp",
+			"string": "cpp",
+			"ostream": "cpp",
+			"memory": "cpp",
+			"iosfwd": "cpp",
+			"xutility": "cpp"
+		},
+	},
+}
